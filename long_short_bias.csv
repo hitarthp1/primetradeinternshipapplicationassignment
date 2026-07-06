@@ -1,0 +1,6 @@
+classification,pct_long_actions,pct_short_actions,avg_size_usd,median_size_usd
+Extreme Fear,65.72,34.32,5349.73,766.15
+Fear,61.97,38.01,7816.11,735.96
+Neutral,61.37,38.68,4782.73,547.66
+Greed,42.28,57.67,5736.88,555.0
+Extreme Greed,46.6,53.37,3112.25,500.05

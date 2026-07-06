@@ -1,0 +1,6 @@
+classification,trade_level_sharpe,day_level_sharpe_annualized,day_level_sortino_annualized,pnl_per_volume_bps
+Extreme Fear,0.044,8.28,25.73,64.56
+Fear,0.084,6.06,14.06,69.46
+Neutral,0.096,8.06,94.48,71.73
+Greed,0.054,2.83,2.17,74.51
+Extreme Greed,0.123,5.19,8.64,218.15

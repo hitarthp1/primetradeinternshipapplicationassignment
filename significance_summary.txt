@@ -1,0 +1,4 @@
+Kruskal-Wallis trade-level Closed PnL across regimes: H=730.33, p=9.44e-157
+Kruskal-Wallis day-level total PnL across regimes:   H=20.06, p=4.86e-04
+Chi-square classification x win/loss: chi2=1976.45, dof=4, p=0.00e+00
+Kruskal-Wallis next-day PnL across prior-day sentiment regimes: H=22.36, p=1.70e-04

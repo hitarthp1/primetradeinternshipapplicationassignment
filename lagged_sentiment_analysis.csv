@@ -1,0 +1,6 @@
+prev_classification,days,avg_next_day_pnl,avg_next_day_winrate,avg_next_day_volume
+Extreme Fear,14,72701.474,84.9,9151153.671
+Fear,92,34751.092,81.6,5054083.656
+Neutral,64,14207.644,85.8,3004914.51
+Greed,198,12872.247,81.0,1390862.665
+Extreme Greed,111,23257.403,88.4,1173888.194

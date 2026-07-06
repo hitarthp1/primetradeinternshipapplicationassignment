@@ -1,0 +1,6 @@
+classification,unique_days,raw_avg_pnl,winsorized_avg_pnl_1_99pct,top1_account_pnl_share_pct,top3_account_pnl_share_pct
+Extreme Fear,14,71.03,42.62,35.4,84.9
+Fear,91,112.63,83.66,33.2,62.6
+Neutral,67,71.2,57.19,31.0,70.3
+Greed,193,85.4,65.78,24.8,62.7
+Extreme Greed,114,130.21,92.59,40.7,66.1
