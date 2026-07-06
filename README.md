@@ -4,8 +4,7 @@ Analysis of 211K Hyperliquid historical trades against the Bitcoin Fear & Greed 
 market sentiment predicts trader performance, and what that implies for trading strategy.
 
 **Hiring assignment submission.** Full narrative write-up: [REPORT.pdf](REPORT.pdf) (also available as
-[REPORT.md](REPORT.md)). Interactive dashboard: `dashboard/index.html`.
-
+[REPORT.md](REPORT.md)).
 ---
 
 ## Quick look
@@ -47,12 +46,6 @@ robustness checks (sample size per regime, outlier sensitivity, per-account PnL 
 ├── data/
 │   ├── historical_data.csv        <- Hyperliquid trade fills (source data)
 │   └── fear_greed_index.csv       <- Bitcoin Fear & Greed Index (source data)
-├── dashboard/
-│   ├── index.html                 <- open this in a browser — no server required
-│   ├── style.css, script.js
-│   ├── data.js                    <- pre-computed results consumed by the dashboard
-│   ├── build_data.py              <- regenerates data.js from the analysis CSVs
-│   └── vendor/chart.umd.min.js    <- Chart.js, vendored for fully offline use
 ├── plot1–plot8_*.png              <- charts referenced in REPORT.pdf
 └── *.csv                          <- intermediate result tables (stats, significance,
                                        risk-adjusted metrics, lagged analysis, robustness, etc.)
@@ -73,15 +66,6 @@ python3 dashboard/build_data.py   # regenerates dashboard/data.js
 
 All scripts use paths relative to their own location, so this works after cloning to any machine —
 no path edits needed.
-
-## How to view the dashboard
-
-Just open `dashboard/index.html` directly in a browser (double-click it, or `open dashboard/index.html`
-on macOS). It's a fully static page — all data and charting (Chart.js) are bundled locally, so it works
-offline with no build step or local server.
-
-The dashboard has 5 tabs mirroring the report's structure: **Overview**, **Trading Behavior**,
-**Risk-Adjusted**, **Predictive Signal**, and **Stats & Robustness**.
 
 ## Methodology notes
 
