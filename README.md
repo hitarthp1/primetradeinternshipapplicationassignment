@@ -61,7 +61,6 @@ python3 -m pip install -r requirements.txt
 
 python3 analysis.py         # runs the full analysis, writes all *.csv and plot*.png outputs
 python3 build_pdf.py        # rebuilds REPORT.pdf from those outputs
-python3 dashboard/build_data.py   # regenerates dashboard/data.js
 ```
 
 All scripts use paths relative to their own location, so this works after cloning to any machine —
